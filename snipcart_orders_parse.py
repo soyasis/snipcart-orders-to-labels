@@ -7,7 +7,6 @@ from datetime import datetime
 import gspread
 from google.oauth2.service_account import Credentials
 
-
 ### -----------------------------------------------------------------
 ### Variables
 url = "https://app.snipcart.com/api/orders"
