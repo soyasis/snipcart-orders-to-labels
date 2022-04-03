@@ -1,3 +1,10 @@
+# Custom files
+.DS_Store
+spreadsheet_id.json
+service_account.json
+snipcart_secret.json
+secrets/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
