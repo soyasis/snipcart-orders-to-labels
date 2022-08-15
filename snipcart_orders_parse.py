@@ -21,9 +21,6 @@ with open("./secrets/spreadsheet_id.json") as f:
     spreadsheet = json.load(f)
 SPREADSHEET_ID = spreadsheet["id"]
 
-# load into a data frame
-df = pd.DataFrame.from_records(data["data"])
-
 scope = [
     "https://spreadsheets.google.com/feeds",
     "https://www.googleapis.com/auth/drive",
